@@ -31,8 +31,8 @@ int main() {
     SetConsoleOutputCP(65001);
 
     std::cout << "DLL 1NJ3CT0R";
-    std::string dllPath = "hello-world-x64.dll";
-    std::wstring targetProc = L"integrity.exe";
+    std::string dllPath = "your_dll.dll";
+    std::wstring targetProc = L"your_exe.exe";
 
 
     if (!FileExists(dllPath)) {
@@ -109,3 +109,4 @@ int main() {
     std::cin.get();
     return 0;
 }
+
